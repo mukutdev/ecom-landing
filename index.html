@@ -7,6 +7,7 @@
     <title>Ecommerce landing page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/802fdeb78f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- header start -->
@@ -28,15 +29,15 @@
                     <a class="nav-link" href="#">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ">Backpack</a>
+                    <a class="nav-link" href="#">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ">Subscribe</a>
+                    <a class="nav-link" href="#">Subscribe</a>
                   </li>
                 </ul>
                 <!-- <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <p><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i></p>
                 </form> -->
               </div>
             </div>
@@ -46,13 +47,93 @@
 <!-- header start -->
 <!-- hero  start -->
         <main>
-            <section class="hero-area">
-                
+            <section class="hero-area container my-5">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded-4">
+                      <div class="carousel-item active">
+                       <div class="row align-items-center carousel-bg-color rounded-4 mx-0">
+                        <div class="col-lg-7 ps-5">
+                            <h1 class="h1 fw-bold">Mi LED TV 4A PRO 32</h1>
+                            <p class="pe-5 py-3 h6 fs-5 fw-normal">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <h2 class="h1 py-3" >$1289</h2>
+                            <a class="btn cat-bg-2 px-4 py-2 text-white fs-5" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                        <div class="col-lg-5 py-5">
+                            <img src="./images/banner-images/tv.png" class="img-fluid" alt="">
+                        </div>
+                       </div>
+                      </div>
+                      <div class="carousel-item">
+                       <div class="row align-items-center carousel-bg-color rounded-4 mx-0">
+                        <div class="col-lg-7 ps-5">
+                            <h1 class="h1 fw-bold">Mi LED TV 4A PRO 32</h1>
+                            <p class="pe-5 py-3 h6 fs-5 fw-normal">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <h2 class="h1 py-3" >$1289</h2>
+                            <a class="btn cat-bg-2 px-4 py-2 text-white fs-5" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                        <div class="col-lg-5 py-5">
+                            <img src="./images/banner-images/xbox.png" class="img-fluid" alt="">
+                        </div>
+                       </div>
+                      </div>
+                      <div class="carousel-item">
+                       <div class="row align-items-center carousel-bg-color rounded-4 mx-0">
+                        <div class="col-lg-7 ps-5">
+                            <h1 class="h1 fw-bold">Mi LED TV 4A PRO 32</h1>
+                            <p class="pe-5 py-3 h6 fs-5 fw-normal">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <h2 class="h1 py-3" >$1289</h2>
+                            <a class="btn cat-bg-2 px-4 py-2 text-white fs-5" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                        <div class="col-lg-5 py-5">
+                            <img src="./images/banner-images/headphone.png" class="img-fluid" alt="">
+                        </div>
+                       </div>
+                      </div>
+                     
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </section>
+            <!-- hero end -->
+
+            <!-- Catagories section start -->
+            <section class="categories-area my-5 py-3">
+              <div class="container">
+                <div class="row my-3">
+                  <div class="col-lg-4 col-sm-2 col-12">
+                    <div class="cat-bg d-flex align-items-center p-3 rounded-3 justify-content-between">
+                      <h1 class="h1 text-white ps-4">Bags</h1>
+                      <img  class="img-fluid " src="./images/categories/bag.png" alt="" srcset="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-2 col-12">
+                    <div class="cat-bg-2 d-flex align-items-center p-3 rounded-3 justify-content-between">
+                      <h1 class="h1 text-white ps-4">Shoes</h1>
+                      <img  class="img-fluid " src="./images/categories/shoes.png" alt="" srcset="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-2 col-12">
+                    <div class="cat-bg-3 d-flex align-items-center p-3 rounded-3 justify-content-between">
+                      <h1 class="h1 text-white ps-4">Watch</h1>
+                      <img  class="img-fluid " src="./images/categories/watch.png" alt="" srcset="">
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </section>
+
+          <!-- Catagories section end -->
+
         </main>
 
-
-<!-- hero end -->
 
 
 
