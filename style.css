@@ -27,3 +27,50 @@
     line-height: 24px;
     outline: none;
 }
+ .switcher{
+    cursor: pointer;
+ }
+.tomato{
+    color: tomato;
+}
+.switcher-color{
+    background: -webkit-linear-gradient(#4289FF, #3F07F8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-tomato{
+    background-image: linear-gradient(#4289FF, #3F07F8);
+    color: #fff;
+    transition: .4s;
+}
+.img-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+p-white{
+    color: #fff !important;
+}
+.buy-message{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+/* Responsive css */
+@media screen and (max-width: 576px) {
+   /* .test{
+        display: none;
+    } */
+    .subscribe-area-height{
+        height: 300px;
+    }
+    .subscribe-form{
+        width: 90% !important;
+    }
+.submit-btn,
+.inp-radius{
+    width: 100% !important;
+    margin: 5px 0;
+}
+}

@@ -12,7 +12,7 @@
 <body>
     <!-- header start -->
     <header class="header-area">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="./images/logo.png" alt="">
@@ -23,16 +23,16 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link fw-semibold" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link fw-semibold" href="#shoe">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link fw-semibold" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link fw-semibold" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
                 <!-- <form class="d-flex" role="search">
@@ -47,16 +47,16 @@
 <!-- header start -->
 <!-- hero  start -->
         <main>
-            <section class="hero-area container my-5">
+            <section class="hero-area container my-5 py-5 py-sm-3" id="home">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner rounded-4">
                       <div class="carousel-item active">
                        <div class="row align-items-center carousel-bg-color rounded-4 mx-0">
-                        <div class="col-lg-7 ps-5">
+                        <div class="col-lg-7 ps-5 py-4">
                             <h1 class="h1 fw-bold">Mi LED TV 4A PRO 32</h1>
                             <p class="pe-5 py-3 h6 fs-5 fw-normal">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                             <h2 class="h1 py-3" >$1289</h2>
-                            <a class="btn cat-bg-2 px-4 py-2 text-white fs-5" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            <a class="btn cat-bg-2 px-4 py-2 text-white fs-5 caro-btn" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
                         </div>
                         <div class="col-lg-5 py-5">
                             <img src="./images/banner-images/tv.png" class="img-fluid" alt="">
@@ -65,11 +65,11 @@
                       </div>
                       <div class="carousel-item">
                        <div class="row align-items-center carousel-bg-color rounded-4 mx-0">
-                        <div class="col-lg-7 ps-5">
-                            <h1 class="h1 fw-bold">Mi LED TV 4A PRO 32</h1>
+                        <div class="col-lg-7 ps-5 py-4">
+                            <h1 class="h1 fw-bold ">Mi LED TV 4A PRO 64</h1>
                             <p class="pe-5 py-3 h6 fs-5 fw-normal">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                             <h2 class="h1 py-3" >$1289</h2>
-                            <a class="btn cat-bg-2 px-4 py-2 text-white fs-5" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            <a class="btn cat-bg-2 px-4 py-2 text-white fs-5 caro-btn" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
                         </div>
                         <div class="col-lg-5 py-5">
                             <img src="./images/banner-images/xbox.png" class="img-fluid" alt="">
@@ -78,11 +78,11 @@
                       </div>
                       <div class="carousel-item">
                        <div class="row align-items-center carousel-bg-color rounded-4 mx-0">
-                        <div class="col-lg-7 ps-5">
-                            <h1 class="h1 fw-bold">Mi LED TV 4A PRO 32</h1>
+                        <div class="col-lg-7 ps-5 py-4">
+                            <h1 class="h1 fw-bold">Mi LED TV 4A PRO 128</h1>
                             <p class="pe-5 py-3 h6 fs-5 fw-normal">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                             <h2 class="h1 py-3" >$1289</h2>
-                            <a class="btn cat-bg-2 px-4 py-2 text-white fs-5" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            <a class="btn cat-bg-2 px-4 py-2 text-white fs-5 caro-btn" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
                         </div>
                         <div class="col-lg-5 py-5">
                             <img src="./images/banner-images/headphone.png" class="img-fluid" alt="">
@@ -91,10 +91,7 @@
                       </div>
                      
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
+    
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
@@ -106,7 +103,7 @@
             <!-- Catagories section start -->
             <section class="categories-area my-5 py-3">
               <div class="container">
-                <div class="row my-3">
+                <div class="row my-3 g-4">
                   <div class="col-lg-4 col-sm-2 col-12">
                     <div class="cat-bg d-flex align-items-center p-3 rounded-3 justify-content-between">
                       <h1 class="h1 text-white ps-4">Bags</h1>
@@ -132,71 +129,76 @@
 
           <!-- Catagories section end -->
           <!-- shoes area start -->
-            <section class="shoes-area my-5 py-5 bg-light">
+            <section class="shoes-area my-5 py-5 bg-light "id="shoe">
               <div class="container">
                 <!-- shoes collections -->
                 <div class="d-flex justify-content-between align-items-center">
-                  <h1 class="h1 fw-bold">Shoes</h1>
+                  <h1 class="h1 fw-bold flex-grow-1">Shoes</h1>
+                  <p class=" h1 me-5 "><i class="fa-solid fa-toggle-off switcher"></i></p>
                   <h5 class="h5 text-warning">See All</h5>
                 </div>
                 <div class="row row-cols-1 row-cols-md-3 g-5 my-4">
                   <div class="col">
-                    <div class="card border-0 rounded-4 shadow-sm">
-                      <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card border-0 rounded-4 shadow-sm position-relative">
+                      <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">    
                       <div class="card-body px-4">
-                        <h4 class="h4 fw-bold text-center">CReebok Dart Men’s Shoes</h4>
+                        <h4 class="h4 fw-bold text-center product-name">CReebok Dart Men’s Shoes</h4>
                         <p class="card-text text-center text-muted fs-6 py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                         <h3 class="h2 text-center">$1290</h3>
                         <div class="d-flex justify-content-center my-4">
-                          <a class="btn bg-black px-4 py-2 text-white fs-6" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                          <a class="btn bg-black px-4 py-2 text-white fs-6" href="#shoe">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
                         </div>
+                        <p class="buy-message"></p>
                       </div>
                     </div>
                   </div>
                   <div class="col">
-                    <div class="card border-0 rounded-4 shadow-sm">
+                    <div class="card border-0 rounded-4 shadow-sm position-relative">
                       <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
                       <div class="card-body px-4">
-                        <h4 class="h4 fw-bold text-center">Reebok Pump</h4>
+                        <h4 class="h4 fw-bold text-center product-name">Reebok Pump</h4>
                         <p class="card-text text-center text-muted fs-6 py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                         <h3 class="h2 text-center">$190</h3>
                         <div class="d-flex justify-content-center my-4">
-                          <a class="btn bg-black px-4 py-2 text-white fs-6" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                          <a class="btn bg-black px-4 py-2 text-white fs-6" href="#shoe">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
                         </div>
+                        <p class="buy-message"></p>
                       </div>
                     </div>
                   </div>
                   <div class="col">
-                    <div class="card border-0 rounded-4 shadow-sm">
+                    <div class="card border-0 rounded-4 shadow-sm position-relative">
                       <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
                       <div class="card-body px-4">
-                        <h4 class="h4 fw-bold text-center">Reebook All Terrain</h4>
+                        <h4 class="h4 fw-bold text-center product-name">Reebook All Terrain</h4>
                         <p class="card-text text-center text-muted fs-6 py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                         <h3 class="h2 text-center">$1390</h3>
                         <div class="d-flex justify-content-center my-4">
-                          <a class="btn bg-black px-4 py-2 text-white fs-6" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                          <a class="btn bg-black px-4 py-2 text-white fs-6"href="#shoe">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
                         </div>
+                        <p class="buy-message"></p>
                       </div>
                     </div>
                   </div>
                   
                 </div>
                 <!-- backpack collections -->
-                <div class="d-flex justify-content-between align-items-center my-5 py-3">
-                  <h1 class="h1 fw-bold">Backpacks</h1>
+                <div class="d-flex justify-content-between align-items-center my-5 py-3" id="backpack">
+                  <h1 class="h1 fw-bold ">Backpacks</h1>
                   <h5 class="h5 text-warning">See All</h5>
                 </div>
-                <div class="row row-cols-1 row-cols-md-3 g-5">
+                <div class="row row-cols-1 row-cols-md-3 g-5 ">
                   <div class="col">
                     <div class="card border-0 rounded-4 shadow-sm">
                       <img src="./images/bags/bag-1.png" class="card-img-top" alt="...">
                       <div class="card-body px-4">
-                        <h4 class="h4 fw-bold text-center">Ison Backpack</h4>
+                        <h4 class="h4 fw-bold text-center product-name">Ison Backpack</h4>
                         <p class="card-text text-center text-muted fs-6 py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                         <h3 class="h2 text-center">$1290</h3>
                         <div class="d-flex justify-content-center my-4">
-                          <a class="btn bg-black px-4 py-2 text-white fs-6" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                          <a class="btn bg-black px-4 py-2 text-white fs-6" href="#backpack">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
                         </div>
+                        <p class="buy-message"></p>
                       </div>
                     </div>
                   </div>
@@ -204,12 +206,13 @@
                     <div class="card border-0 rounded-4 shadow-sm">
                       <img src="./images/bags/bag-2.png" class="card-img-top" alt="...">
                       <div class="card-body px-4">
-                        <h4 class="h4 fw-bold text-center">Biaowang Backpack</h4>
+                        <h4 class="h4 fw-bold text-center product-name">Biaowang Backpack</h4>
                         <p class="card-text text-center text-muted fs-6 py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                         <h3 class="h2 text-center">$590</h3>
                         <div class="d-flex justify-content-center my-4">
-                          <a class="btn bg-black px-4 py-2 text-white fs-6" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                          <a class="btn bg-black px-4 py-2 text-white fs-6"  href="#backpack">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
                         </div>
+                        <p class="buy-message"></p>
                       </div>
                     </div>
                   </div>
@@ -217,12 +220,13 @@
                     <div class="card border-0 rounded-4 shadow-sm">
                       <img src="./images/bags/bag-3.png" class="card-img-top" alt="...">
                       <div class="card-body px-4">
-                        <h4 class="h4 fw-bold text-center">Dxyizu WS54 Smart</h4>
+                        <h4 class="h4 fw-bold text-center product-name">Dxyizu WS54 Smart</h4>
                         <p class="card-text text-center text-muted fs-6 py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                         <h3 class="h2 text-center">$1090</h3>
                         <div class="d-flex justify-content-center my-4">
-                          <a class="btn bg-black px-4 py-2 text-white fs-6" href="">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                          <a class="btn bg-black px-4 py-2 text-white fs-6"  href="#backpack">BUY NOW <i class="fa-solid fa-arrow-right ms-1"></i></a>
                         </div>
+                        <p class="buy-message"></p>
                       </div>
                     </div>
                   </div>
@@ -234,16 +238,16 @@
 
 
           <!-- shoes area end -->
-          <section class="subscribe-area">
+          <section class="subscribe-area" id="subscribe">
             <div class="container">
               <div class="subscribe-bg d-flex justify-content-center py-5 subscribe-area-height align-items-center rounded-4">
-                <div class=" w-50">
+                <div class="w-50 subscribe-form">
                   <h1 class="h1 fw-bold text-center" >LET'S STAY IN TOUCH</h1>
                   <p class="text-center text-muted fs-5 my-4">Subcribe to get latest update</p>
                   <form action="">
                     <div>
-                      <input type="email" placeholder="Enter Your Email" name="" id="" class="border-0 w-75 inp-radius">
-                      <input class="cat-bg-2 submit-btn text-white fw-bold border-0" type="submit" value="Subscribe">
+                      <input type="email" placeholder="Enter Your Email" name="" id="email-field" class="border-0 w-75 inp-radius">
+                      <input class="cat-bg-2 submit-btn text-white fw-bold border-0" disabled type="submit" value="Subscribe">
                     </div>
                    
                   </form>
@@ -261,5 +265,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
