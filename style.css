@@ -1,76 +1,76 @@
 /* carousel css */
 .carousel-bg-color,
-.subscribe-bg{
-    background-color: #FEEAE9;
+.subscribe-bg {
+  background-color: #feeae9;
 }
 /* categories section css */
-.cat-bg{
-    background-image: linear-gradient(#FF9C35, #FFD019)
+.cat-bg {
+  background-image: linear-gradient(#ff9c35, #ffd019);
 }
-.cat-bg-2{
-    background-image: linear-gradient(#FF589B, #FF136F)
+.cat-bg-2 {
+  background-image: linear-gradient(#ff589b, #ff136f);
 }
-.cat-bg-3{
-    background-image: linear-gradient(#4289FF, #3F07F8)
+.cat-bg-3 {
+  background-image: linear-gradient(#4289ff, #3f07f8);
 }
-.subscribe-area-height{
-    height: 400px;
+.subscribe-area-height {
+  height: 400px;
 }
-.submit-btn{
-    margin-left: -6px;
-    letter-spacing: .6px;
+.submit-btn {
+  margin-left: -6px;
+  letter-spacing: 0.6px;
 }
 .submit-btn,
-.inp-radius{
-    padding: 15px 20px;
-    border-radius: 0 4px 4px 0;
-    line-height: 24px;
-    outline: none;
+.inp-radius {
+  padding: 15px 20px;
+  border-radius: 0 4px 4px 0;
+  line-height: 24px;
+  outline: none;
 }
- .switcher{
-    cursor: pointer;
- }
-.tomato{
-    color: tomato;
+.switcher {
+  cursor: pointer;
 }
-.switcher-color{
-    background: -webkit-linear-gradient(#4289FF, #3F07F8);
+.tomato {
+  color: tomato;
+}
+.switcher-color {
+  background: -webkit-linear-gradient(#4289ff, #3f07f8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.bg-tomato{
-    background-image: linear-gradient(#4289FF, #3F07F8);
-    color: #fff;
-    transition: .4s;
+.bg-tomato {
+  background-image: linear-gradient(#4289ff, #3f07f8);
+  color: #fff;
+  transition: 0.4s;
 }
-.img-2{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
+.img-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
 }
-p-white{
-    color: #fff !important;
+p-white {
+  color: #fff !important;
 }
-.buy-message{
-    font-size: 16px;
-    color: #000;
-    font-weight: 500;
+.buy-message {
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
 }
 /* Responsive css */
 @media screen and (max-width: 576px) {
-   /* .test{
+  /* .test{
         display: none;
     } */
-    .subscribe-area-height{
-        height: 300px;
-    }
-    .subscribe-form{
-        width: 90% !important;
-    }
-.submit-btn,
-.inp-radius{
+  .subscribe-area-height {
+    height: 300px;
+  }
+  .subscribe-form {
+    width: 90% !important;
+  }
+  .submit-btn,
+  .inp-radius {
     width: 100% !important;
     margin: 5px 0;
-}
+  }
 }

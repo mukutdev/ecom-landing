@@ -55,14 +55,6 @@ for( const buy of buyNow ) {
     })
 }
 
-// mouseover event handler
-for(const cardImg of cardImages){
-    cardImg.addEventListener('mouseover', function(){
-        console.log(cardImg.src);
-    })
-}
-
-
 // subscribeBtn event handler
 emailField.addEventListener('keyup', function(){
     const collectEmailFieldValue = emailField.value
